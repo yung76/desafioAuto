@@ -10,6 +10,7 @@ Test automatizado de OpenCart utilizando Selenium WebDriver con TestNG. El códi
 
 - Búsqueda y agregado de productos al carrito.
 - Visualización del carrito y validación de los productos.
+- Añadir productos adicionales y validar la cantidad de memoria
 - Inicio de sesión
 - Registro de usuario.
 - Proceso de compra completo (Checkout).
