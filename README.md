@@ -70,21 +70,29 @@ mvn clean test
 ### Test 2: Ver carrito y validar productos
 - Abrir el carrito y verificar productos agregados.
 
-### Test 3: Inicio de sesión y registro
+### Test 3: Añadir productos adicionales al carrito de compra
+- Inicio de sesión con credenciales almacenadas.
+- Se añaden dos el producto ( `HP LP3065`)
+- Se establece fecha de delivery dia de mañana.
+- Valida la cantidad de memoria
+- Se ingresan menos de 25 caracteres y se valida el mensaje de advertencia
+- Se ingresa una review correcta y se valida el mensaje de exito
+ 
+### Test 4: Inicio de sesión y registro
 - Inicio de sesión con credenciales almacenadas.
 
-### Test 4: Proceso de compra
+### Test 5: Proceso de compra
 - Selección del país y estado con `Select` de Selenium.
 - Validación del método de envío (`Flat Shipping Rate - $5.00`).
 - Verificación del total del pedido antes del pago.
 
-### Test 5: Verificación del historial de pedidos
+### Test 6: Verificación del historial de pedidos
 - Confirmación del pedido.
 - Verificación del estado del pedido en `"Pending"`.
 
-### Test 6: Registro de Usuario
+### Test 7: Registro de Usuario
 - Registro si el usuario no está registrado.
 
-### Test 7: Comparacion de productos
+### Test 8: Comparacion de productos
 - Compara los productos (`Apple Cinema 30" y Samsung SyncMaster 941BW`).
 
